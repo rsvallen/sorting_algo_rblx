@@ -1,8 +1,3 @@
-/*
-    HaxBall @ 2024 - Mario Carbajal - All rights reserved.
-    8a626f82
-    */
-"use strict";
 console.log("Custom loaded");
 
 (function (va) {
