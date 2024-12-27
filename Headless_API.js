@@ -1,6 +1,7 @@
 console.log("Custom loaded");
 
 (function (va) {
+	console.log("Hi")
 	function ob() {
 		return q.Zb(this, "");
 	}
