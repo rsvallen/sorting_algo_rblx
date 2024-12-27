@@ -1,7 +1,9 @@
-console.log("Custom loaded");
-
-(function (va) {
-	console.log("Hi")
+/*
+ HaxBall @ 2024 - Mario Carbajal - All rights reserved.
+ 8a626f82
+*/
+"use strict";
+console.log("Loaded custom.")(function (va) {
 	function ob() {
 		return q.Zb(this, "");
 	}
@@ -488,7 +490,6 @@ console.log("Custom loaded");
 				sa = g("token", null),
 				qb = k("geo", null),
 				Da = E.Se;
-			console.log(B, Ea);
 			if (null != qb && ((Da = fa.Te(qb)), 3 < Da.ib.length))
 				throw r.s("Invalid country code");
 			let y = new Oa();
@@ -3486,13 +3487,7 @@ console.log("Custom loaded");
 					(a = c = this.kd),
 					(c.x = -a.x),
 					(c.y = -a.y));
-			} else
-				(a = this.F.a),
-					(b = this.K.a),
-					(c = a.x - b.x),
-					(a = -(a.y - b.y)),
-					(b = Math.sqrt(a * a + c * c)),
-					(this.X = new I(a / b, c / b));
+			} else (a = this.F.a), (b = this.K.a), (c = a.x - b.x), (a = -(a.y - b.y)), (b = Math.sqrt(a * a + c * c)), (this.X = new I(a / b, c / b));
 		}
 	}
 	class Qa {
