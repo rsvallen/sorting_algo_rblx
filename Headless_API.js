@@ -3,7 +3,8 @@
  8a626f82
 */
 "use strict";
-console.log("Loaded custom.")(function (va) {
+console.log("Loaded custom.");
+(function (va) {
 	function ob() {
 		return q.Zb(this, "");
 	}
